@@ -4,6 +4,7 @@
   "description": "Get a Spotify oauth access token quickly and easily via your command line",
   "main": "./lib/index.js",
   "author": "Aster Haven <therebelrobot> (https://aster.hn)",
+  "repository": "https://github.com/therebelrobot/spotify-oauth-cli",
   "contributors": [
     "Lawrence Holmes (original fork author, spotify-auth-cli)",
     {
