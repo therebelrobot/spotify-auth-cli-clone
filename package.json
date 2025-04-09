@@ -1,22 +1,44 @@
 {
-  "name": "spotify-auth-cli",
-  "version": "1.1.1",
-  "description": "Get a Spotify access token quickly and easily via your command line",
+  "name": "spotify-oauth-cli",
+  "version": "2.0.0",
+  "description": "Get a Spotify oauth access token quickly and easily via your command line",
   "main": "./lib/index.js",
-  "author": "Lawrence Holmes",
+  "author": "Aster Haven <therebelrobot> (https://aster.hn)",
+  "contributors": [
+    "Lawrence Holmes (original fork author, spotify-auth-cli)",
+    {
+      "name": "Aster Haven",
+      "email": "npm@aster.hn",
+      "url": "https://aster.hn"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.1",
     "clipboardy": "^1.2.3",
     "express": "^4.16.2",
     "minimist": "^1.2.0",
-    "open": "^7.0.4"
+    "open": "^7.0.4",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "npm",
+      "onFail": "error"
+    }
   },
   "preferGlobal": true,
   "scripts": {
-    "start": "./bin/spotify-token.js"
+    "start": "./bin/spotify-access-token.js"
   },
   "bin": {
-    "spotify-token": "./bin/spotify-token.js"
+    "spotify-access-token": "./bin/spotify-access-token.js"
   }
 }
