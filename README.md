@@ -3,7 +3,7 @@ A tiny helper tool that can be used to quickly fetch a Spotify access token from
 
 ### Installation
 ```
-$ npm install -g ospotify-auth-cli
+$ npm install -g spotify-oauth-cli
 ```
 
 ### Usage
