@@ -1,6 +1,6 @@
 {
   "name": "spotify-oauth-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Get a Spotify oauth access token quickly and easily via your command line",
   "main": "./lib/index.js",
   "author": "Aster Haven <therebelrobot> (https://aster.hn)",
